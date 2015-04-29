@@ -19,7 +19,7 @@ a img {/*remove blue border from linked images in ie*/
 /*GLOBAL STYLES*/
 
 body{ /*global font styles go on the body tag*/
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size:100%; /*16px*/
 	line-height:1.5; /*24px*/ /*always at least 1.3*/
 	color: #000;
@@ -39,7 +39,7 @@ header{ /*needs a unique id if more than one header on page*/ /*declare height n
 	height:160px; /*height depends on audio*/
 	background-color:#000;
 	color: #F554AA;
-	font-family:"lust-script-display",sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	line-height:160px;
 	padding-left:15px;
 }
@@ -54,24 +54,24 @@ h1 span {
 h2{/*This is used for my main nav as well as the titles on the nav-side, which are also nav elements*/
 	font-weight: normal;
 	font-size: 1em;
-	font-family:"lust-script-display",sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 h3{/*This is used for the title bar on the content div*/
 	font-weight: normal;
 	font-size: 1.4em;
-	font-family:"lust-script-display",sans-serif;
+	font-family: 'PT Sans', sans-serif;
 }
 
 h4{/*This is used for my main nav as well as the titles on the nav-side, which are also nav elements*/
 	font-weight: normal;
 	font-size: 1em;
-	font-family:"lust-script-display",sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	margin-top:20px
 }
 
 #top-of-page{
-	font-family: "futura-pt-condensed";
+	font-family: 'PT Sans', sans-serif;
 }
 
 #nav-media li,#nav-footer li, #nav-main li{/*Styling the nav li's*/
@@ -118,23 +118,12 @@ h4{/*This is used for my main nav as well as the titles on the nav-side, which a
 	line-height:50px;	
 }
 
-/*CONTENT-ABOUT*/
+/*CONTENT-PRESSKIT*/
 #content p{
 	margin:10px 0;
-	text-indent:20px;	
+	/*text-indent:20px;*/	
 }
 
-#lilbobby{
-	float: left;
-	margin:10px 10px 0 0;
-	border:1px solid #000;
-}
-
-#bobby-snake{
-	float: right;
-	margin:10px 0 10px 10px;
-	border:1px solid #000;
-}
 
 
 /*CONTENT-LINKS LIST*/	
@@ -144,7 +133,7 @@ h4{/*This is used for my main nav as well as the titles on the nav-side, which a
 }
 
 #content ul a{
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	color: #F554AA;	
 }
 #content ul li{
@@ -158,7 +147,7 @@ h4{/*This is used for my main nav as well as the titles on the nav-side, which a
 }
 
 #media ul a{/*styling the media nav for the content title bar*/
-	font-family:"lust-script-display",sans-serif;		
+	font-family: 'PT Sans', sans-serif;		
 }
 
 iframe{/*iframes are present on media-audio.php, media-video.php, and nav-side.php*/
@@ -281,12 +270,12 @@ footer{/*if I decide to remove the fixed height, I should replace it with overfl
 	clear:both;
 	background-color: #000;
 	color:#fff; 
-	font-family: "futura-pt-condensed";
+	font-family: 'PT Sans', sans-serif;
 	padding:15px;
 }
 
 #media footer ul a{
-	font-family: "futura-pt-condensed";
+	font-family: 'PT Sans', sans-serif;
 }
 
 #facebook{
@@ -310,7 +299,7 @@ footer{/*if I decide to remove the fixed height, I should replace it with overfl
 
 /*-----------A TAGS----------------*/
 a{
-	font-family:"lust-script-display",sans-serif;
+	font-family: 'PT Sans', sans-serif;;
 }
 
 a:link,
@@ -356,7 +345,7 @@ a:focus {
 
 #nav-footer a {
 	padding-right:15px;
-	font-family:"futura-pt-condensed";
+	font-family: 'PT Sans', sans-serif;
 }
 #nav-side h2 a{
 	
@@ -365,7 +354,7 @@ a:focus {
 
 /*-----------YOU ARE HERE STYLES----------------*/
 #home .home-link,
-#about .about-link,
+#pressKit .pressKit-link,
 #media .media-link,
 #shows .shows-link,
 #links .links-link,

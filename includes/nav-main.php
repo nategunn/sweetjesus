@@ -13,7 +13,7 @@
     <nav id="nav-main">
         <ul>
         	<li><a href="index.php" class="home-link"><h2>Home</h2></a></li>
-			<li><a href="about.php" class="about-link">About</a></li>
+			<li><a href="pressKit.php" class="pressKit-link">Press Kit</a></li>
 			<li><a href="media-video.php" class="media-link">Media</a></li>
 			<li><a href="shows.php" class="shows-link">Shows</a></li>
            <li><a href="links.php" class="links-link">Links</a></li>

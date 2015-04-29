@@ -10,7 +10,7 @@
                 
     <ul>
         	<li><a href="index.php" class="home-link">Home</a></li>
-			<li><a href="about.php" class="about-link">About</a></li>
+			<li><a href="pressKit.php" class="pressKit-link">Press Kit</a></li>
 			<li><a href="media-audio.php" class="video-link audio-link photos-link">Media</a>
             	<ul id="footer-vert">
               		<li><a href="media-video.php" class="video-link">Video</a></li>

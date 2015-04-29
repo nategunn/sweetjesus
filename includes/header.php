@@ -5,8 +5,7 @@
 <meta charset="UTF-8" />
 <meta name="description" content="Sweet Jesus"/>
 <meta name="keywords" content="Sweet Jesus, Sweet, Jesus, Bobby, Malvestuto, music, Seattle, band"/>
-<script type="text/javascript" src="//use.typekit.net/xtt5zvp.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
 <!-- Remy Sharp Shim --> 
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> 
