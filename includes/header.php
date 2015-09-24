@@ -6,6 +6,7 @@
 <meta name="description" content="Sweet Jesus"/>
 <meta name="keywords" content="Sweet Jesus, Sweet, Jesus, Bobby, Malvestuto, music, Seattle, band"/>
 <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=IM+Fell+English' rel='stylesheet' type='text/css'>
 <!-- Remy Sharp Shim --> 
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script> 
@@ -13,6 +14,7 @@
 
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/lightbox.css" rel="stylesheet" />
+<link href="css/font-awesome.min.css" rel="stylesheet"/>
 <script src="js/jquery-1.10.2.min.js"></script>
 <script src="js/lightbox-2.6.min.js"></script> 
 

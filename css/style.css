@@ -1,9 +1,9 @@
 <!--
 /* DEVO ONLY -- delete when no longer need*/
 
-div, header, nav, aside, footer{
-	/*border: 1px solid red;*/
-}
+/*div, header, nav, aside, footer{
+	border: 1px solid red;
+}*/
 
 /*RESETS*/
 
@@ -22,53 +22,63 @@ body{ /*global font styles go on the body tag*/
 	font-family: 'PT Sans', sans-serif;
 	font-size:100%; /*16px*/
 	line-height:1.5; /*24px*/ /*always at least 1.3*/
-	color: #000;
+	color: #de430a;/*#f5e69f*/
+	background-color:#000;
 	
+}
+
+@font-face {
+	font-family:caviarDreams;
+	src:url(fonts/CaviarDreams.ttf);
 }
 
 /*LAYOUT STYLES*/
 
 #wrapper{
-	width:740px; /*width of wrapper = width of sidebars + gutters*/
+	width:780px; /*width of wrapper = width of sidebars + gutters-- added 40px*/
 	margin: 20px auto;
 	padding:20px;
-}
-
-
-header{ /*needs a unique id if more than one header on page*/ /*declare height no width*/
-	height:160px; /*height depends on audio*/
 	background-color:#000;
-	color: #F554AA;
-	font-family: 'PT Sans', sans-serif;
-	line-height:160px;
-	padding-left:15px;
-}
-h1{/*This is my main title on top of the screen*/
-	font-size:600%;	
 }
 
-h1 span { 		
+
+header{
+	background-color:#000;
+	font-family: 'caviarDreams', serif;
+}
+
+header span { 		
    display:none;
 } 
 
+
 h2{/*This is used for my main nav as well as the titles on the nav-side, which are also nav elements*/
 	font-weight: normal;
-	font-size: 1em;
-	font-family: 'PT Sans', sans-serif;
+	font-size: 1.6em;
+	font-family: 'caviarDreams', serif;
 }
 
 h3{/*This is used for the title bar on the content div*/
 	font-weight: normal;
-	font-size: 1.4em;
-	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	font-family: 'caviarDreams', serif;
 }
 
 h4{/*This is used for my main nav as well as the titles on the nav-side, which are also nav elements*/
 	font-weight: normal;
 	font-size: 1em;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'caviarDreams', serif;
 	margin-top:20px
 }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
 
 #top-of-page{
 	font-family: 'PT Sans', sans-serif;
@@ -79,33 +89,34 @@ h4{/*This is used for my main nav as well as the titles on the nav-side, which a
 	list-style:none;
 }
 
-
+/*-----------HEADER------------------*/
+header img{
+	width:100%;
+}
 /*-----------NAV-MAIN----------------*/
 #nav-main{
-	height:30px;
-	background-color: #fff;
-	line-height:30px;
-	/*margin-bottom: 10px;*/
+	height:50px;
+	line-height:50px;
 	padding-top:5px;
+	text-align:center;
+	margin-bottom:75px;
 }
 
-#required{
-	float:right;	
-}
+#nav-main ul{
+	display:inline-block;
+	list-style-type:none;
+} 
 
-#required a:hover,
-#required a:focus{
-	border:1px solid white;	
-}
 
 
 /*-----------CONTENT DIV----------------*/
 #content{/*only declare width, no height*/
 	width:500px;
 	float:left;
+	margin-bottom:75px;
 }
 
-#content-top-bar{/*the black title bar above the content section*/
+#content-top-bar{/*title bar above the A/V section*/
 	display: block;
 	padding: 0 15px;
 	
@@ -113,32 +124,36 @@ h4{/*This is used for my main nav as well as the titles on the nav-side, which a
 
 #content-top-bar, #nav-media{
 	background-color:#000;
-	color:white;
+	color:#de430a;
 	height:50px;
-	line-height:50px;	
+	line-height:30px;	
+}
+
+#home img{
+	max-width:100%;
+	margin-bottom:55px;
+}
+
+#home .sampler,
+#home .recRelease{
+	text-align:center;
+	color:#BCBCBC;
+}
+
+#home h1{
+	text-align:center;
+}
+
+.sampler h2{
+	font-family:'PT sans', sans-serif;
 }
 
 /*CONTENT-PRESSKIT*/
 #content p{
-	margin:10px 0;
-	/*text-indent:20px;*/	
+	margin:10px 0;	
 }
 
 
-
-/*CONTENT-LINKS LIST*/	
-#content ul{
-	padding-left:1.75em;
-	margin-top:20px;
-}
-
-#content ul a{
-	font-family: 'PT Sans', sans-serif;
-	color: #F554AA;	
-}
-#content ul li{
-	padding-bottom:10px;	
-}
 
 /*CONTENT-MEDIA*/
 #media ul{/*styling the media nav for the content title bar*/
@@ -146,28 +161,25 @@ h4{/*This is used for my main nav as well as the titles on the nav-side, which a
 	margin-top:0;
 }
 
-#media ul a{/*styling the media nav for the content title bar*/
-	font-family: 'PT Sans', sans-serif;		
-}
 
 iframe{/*iframes are present on media-audio.php, media-video.php, and nav-side.php*/
-	margin-top:15px;
+	margin:15px 0 30px 0;
 }
 
 /*CONTENT-MEDIA-PHOTOS-gallery*/
 div #gallery {
-	width: 480px;	/* we need a fixed width to center our div. */
+	width: 100%;	/* we need a fixed width to center our div. */
 	margin: auto;	/* centers our div on the page */
 	/*background-color: #BBB;*/ /* makes our div visible so we can see where it is */
-	padding-left: 10.08px; /* keeps our div contents away from the left edge, without triggering the double margin float bug if we add floated elements later */
+	/*padding-left: 10.08px;*/ /* keeps our div contents away from the left edge, without triggering the double margin float bug if we add floated elements later */
 }
 			
 
 #gallery img {
 	/*width:100px;*/ /* re-sizes our photos into thumbnails for the page. This is a shortcut for the demo: 
 				 In real life, create thumbnails by cropping or re-sizing your images in PhotoShop, instead! */
-	border: 2px solid #004; /* puts the border we actually want around our images */
-	margin:20px 10.08px 0 0;	/* keeps our images from bumping into each other */
+	/*border: 2px solid #004;*/ /* puts the border we actually want around our images */
+	margin:20px 21.25px 0 0;	/* keeps our images from bumping into each other */
 }
 	/* note that the imgs don't need to float, as they are inline elements. 
 	   If we used block elements instead, we'd float them. */
@@ -175,6 +187,76 @@ div #gallery {
 #gallery p {
 	font-size: 12px;
 	padding: 20px 20px 20px 0;		/* keeps the text from touching the edges of the div. We don't need padding on the left edge of the paragraph, because we have it on the left edge of our containing div. */
+}
+
+
+#gallery h3{
+	width:480px;
+	border-bottom:1px solid;
+}
+
+#pressKit h3 {
+	width:499px;
+	border-bottom:1px solid;
+}
+
+.bioBody{
+	margin-bottom:50px;
+}
+
+.pkit{
+	width:500px;
+
+
+} 
+
+.pKit .hdDl{
+	width:240px;
+	float:right;
+	/*border:1px solid red;*/
+}
+
+.pKit .bandMem{
+	width:240px;
+	float:left;
+	/*border:1px solid red;*/ 
+}
+.track-list table{
+	margin:0;
+	font-size:small;
+}
+
+.bandMem table{
+	width:100%;
+	margin:0;
+}
+
+.bandMem th{
+	font-family: 'caviarDreams', serif;
+	text-decoration: underline;	
+}
+
+.bandMem td{
+	font-size:small;
+}
+
+.tracks td,
+.tracks th,
+.bandMem th,
+.bandMem td{
+	padding:0;
+	text-align: left;
+}
+
+.hdDl img{
+	width:100%;
+	height:auto;
+}
+
+.hdDl a{
+	text-align:top;
+	font-family:'PT sans', sans-serif;
+	text-decoration: underline;
 }
 
 /*CONTENT-CONTACT*/
@@ -194,19 +276,17 @@ th, td{
 	border:2px solid #000;	
 }
 
-#discovery-method{
-	margin-top:8px;	
-}
 
 .form-labels{
-	text-align:right;
-	width:150px;	
+	text-align:left;
+	width:25px;	
 }
 
 /*CONTENT-SHOWS*/
 #show-table{
 	border-spacing:0;
 	border-collapse: collapse;	
+	margin-bottom: 120px
 }
 
 #show-table th,
@@ -221,8 +301,13 @@ th, td{
 	border-top:2px solid #000;	
 }
 
+.odd{
+	background-color:#303030;
+}
+
 .even{
-	background-color:#D4D3D3;
+	background-color:#BCBCBC;
+	color:#000;
 }
 
 .date{
@@ -231,37 +316,49 @@ th, td{
 	vertical-align:central;
 }
 
+.submit{
+	text-align:left;
+}
+
 /*-----------NAV-SIDE DIV----------------*/
 #nav-side{/*only declare width, no height*/
 	width:220px;
 	float:right;
-	background-color:#fff;
 }
 
 #nav-side h2{
-	background-color:black;
-	color:#fff;
+	color:#de430a;
 	width:200px;
 	margin: 0 0 0 10px;
 	padding: 5px 0 0 10px;
+	text-decoration:underline;
 }
 
 #nav-side p{
 	width:200px;
 	margin:auto;
-	border-bottom:3px solid black;
-	margin:0 0 30px 10px;
+	margin:0 0 50px 10px;
 	padding-left:10px;
 }
 
 #nav-side iframe{
-	margin-top:0;	
+	margin:0 0 0 20px;
+	width:190px;	
 }
 
 #nav-side .variation{
-	padding-left:0;
+	margin-left:10px;
 	width:210px;
 	border-bottom:none;
+}
+
+#nav-side .variation img{
+	width:190px;
+	height:auto;
+}
+
+#nav-side .audio-side{
+	margin-bottom:50px;
 }
 
 /*-----------FOOTER DIV----------------*/
@@ -269,7 +366,7 @@ footer{/*if I decide to remove the fixed height, I should replace it with overfl
 	overflow:hidden;
 	clear:both;
 	background-color: #000;
-	color:#fff; 
+	color:#de430a; 
 	font-family: 'PT Sans', sans-serif;
 	padding:15px;
 }
@@ -278,57 +375,52 @@ footer{/*if I decide to remove the fixed height, I should replace it with overfl
 	font-family: 'PT Sans', sans-serif;
 }
 
-#facebook{
-	float:right;	
-}
-
-#facebook img:hover,
-#facebook img:focus{
-	border:1px solid white;	
-}
-
-#nav-footer{
-	background-color:#000;
-	color:white;
-}
-
 #footer-vert li{
 	float:none;
 }
 
+#top-of-page{
+	font-family: 'PT Sans', sans-serif;
+	text-decoration:underline;
+}
+
+/*.fa-facebook-official{
+	color:#48649f;
+}*/
 
 /*-----------A TAGS----------------*/
 a{
-	font-family: 'PT Sans', sans-serif;;
+	font-family: 'caviarDreams', serif;
 }
 
 a:link,
 a:visited {
 	text-decoration:none;
-	color:#BCBCBC;   
+	color:#de430a;   
 }
 
 a:hover,
 a:focus {
 	text-decoration:underline;
-	color: #F554AA;
+	color:#BCBCBC;
 }
 
 #top a,
 #top a:link,
 #top a:visited{
 	text-decoration:none;
-	color:#F554AA;
+	color:#de430a;
 }
-
-#top a:hover,
-#top a:focus {
+#nav-side a:hover,
+#nav-side a:focus,
+#nav-main a:hover,
+#nav-main a:focus {
 	text-decoration:underline;
-	color: #F554AA;
+	color: #BCBCBC;
 }
 
 #nav-main a {
-	color:#000;
+	color:#de430a;
 	padding: 0 15px;
 	display:block;
 }
@@ -338,18 +430,32 @@ a:focus {
 #nav-media a {
 	 
 	display: block;
-	padding: 0 15px;
+	/*padding: 0 15px;*/
+	padding-right:15px;/*commented out previous padding when I removed the audio option from the nav*/
 	margin-right:50px;
-	color: #F554AA;
+	color: #de430a;
 }
 
 #nav-footer a {
 	padding-right:15px;
 	font-family: 'PT Sans', sans-serif;
 }
-#nav-side h2 a{
+
+
+
+#nav-side h2 a,
+#nav-side p a{
 	
-	color: #F554AA;
+	color: #de430a;
+}
+
+#nav-side a:link,
+#nav-side a:visited {
+	text-decoration:underline;  
+}
+
+.email a{/*nav-side email link*/
+	font-family: 'PT Sans', sans-serif;	
 }
 
 /*-----------YOU ARE HERE STYLES----------------*/
@@ -357,24 +463,22 @@ a:focus {
 #pressKit .pressKit-link,
 #media .media-link,
 #shows .shows-link,
-#links .links-link,
-#contact .contact-link,
-#site-map .site-map-link{
-	color:#F554AA;
+#contact .contact-link{
+	color:#BCBCBC;
 	text-decoration:underline;
 }
 
 #video .video-link,
 #audio .audio-link,
 #photos .photos-link{
-	color:#fff;
+	color:#BCBCBC;
 	text-decoration:underline;
 }
 
 .video .video-link,
 .audio .audio-link,
 .photos .photos-link{
-	color:#F554AA;
+	color:#BCBCBC;
 	text-decoration:underline;	
 }
 
