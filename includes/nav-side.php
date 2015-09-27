@@ -2,7 +2,7 @@
             
   <nav id="nav-side">
     	<h2><a href="shows.php">Next Show</a></h2>
-       <p>September 25th <br/> @ LoFi </a><br/>Record Release! w/ Black Whales and Long Dark Moon</p>
+       <p>October 9th <br/> @ Substation<br/></p>
 
        <h2><!-- <a href="media-audio.php"> -->Audio<!-- </a> --></h2>
        <div class ="audio-side">
