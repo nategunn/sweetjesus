@@ -7,8 +7,17 @@
 <!--     <div id="content-top-bar">
 					<h3>Home</h3>
                 </div> -->
+      <div class="outNow">
+        <h1>Shortwave Oracle is OUT NOW!!</h1>
+        <img src="images/shortCover.jpg" alt="Shortwave Oracle Album Cover"/>
+        <h1>Shortwave Oracle is available at</h1>
+        <h1><a href="http://knickknackrecords.com/products/sweet-jesus-shortwave-oracle-download">KnickKnackRecords.com</a></h1>
+        <h1>or</h1>
+        <h1><a href="http://easystreetonline.com/Item/9007748864">EasyStreetOnline.com</a></h1>
+        <h1>also Available on iTunes</h1>
+      </div> <!-- end outNow -->
       <h1>Watch the new video</h1>
-      <h1>"Getting Over"!</h1>
+      <h1 class="greyText">"Getting Over"!</h1>
       <iframe width="500" height="281" src="https://www.youtube.com/embed/-226JW6j9PQ" frameborder="0" allowfullscreen></iframe>
       <img src="images/videoPromo.jpg" alt="New video promo pic"/>           
       <div class="recRelease">

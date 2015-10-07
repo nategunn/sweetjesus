@@ -134,6 +134,10 @@ header img{
 	margin-bottom:55px;
 }
 
+#home .greyText{
+	color:#BCBCBC;
+}
+
 #home .sampler,
 #home .recRelease{
 	text-align:center;
@@ -142,6 +146,19 @@ header img{
 
 #home h1{
 	text-align:center;
+}
+
+#home .outNow img{
+	margin-bottom:20px;
+}
+
+#home .outNow a{
+	color:#BCBCBC;
+	text-decoration:underline;
+}
+
+.outNow{
+	margin-bottom:50px;
 }
 
 .sampler h2{
