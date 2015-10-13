@@ -2,7 +2,7 @@
             
   <nav id="nav-side">
     	<h2><a href="shows.php">Next Show</a></h2>
-       <p>October 9th <br/> @ Substation<br/></p>
+       <p>November 7th <br> @ Darrell's Tavern<br/></p>
 
        <h2><!-- <a href="media-audio.php"> -->Audio<!-- </a> --></h2>
        <div class ="audio-side">

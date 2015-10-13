@@ -15,16 +15,6 @@
             <th>Details</th>
 		</tr>
         <tr class="even">
-            <td class="date">10/09/15</td>
-            <td>Substation</td>
-            <td></td>
-        </tr>
-        <tr class="odd">
-            <td class="date">10/20/15</td>
-            <td>the Tractor Tavern</td>
-            <td></td>
-        </tr>
-        <tr class="even">
             <td class="date">11/07/15</td>
             <td>Darrell's Tavern</td>
             <td></td>
@@ -49,21 +39,26 @@
             <th>Details</th>
         </tr>
         <tr class="even">
+            <td class="date">10/09/15</td>
+            <td>Substation</td>
+            <td></td>
+        </tr>
+        <tr class="odd">
             <td class="date">9/25/15</td>
             <td>the LoFi</td>
             <td>Record Release! w/ Black Whales and Long Dark Moon</td>
         </tr> 
-        <tr class="odd">
+        <tr class="even">
             <td class="date">8/15/15</td>
             <td>Darrell's Tavern</td>
             <td>w/ Verbal Tip</td>
         </tr>
-        <tr class="even">
+        <tr class="odd">
             <td class="date">7/02/15</td>
             <td>Conor Byrne</td>
             <td>w/ Hand in the Attic and Yves</td>
         </tr>        
-        <tr class="odd">
+        <tr class="even">
             <td class="date">06/13/15</td>
             <td>Georgetown Carnival-Elysian Brewing Stage</td>
             <td>w/ the Young Evils, the Chasers, the Bend, and more...</td>
