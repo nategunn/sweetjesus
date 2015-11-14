@@ -2,7 +2,7 @@
             
   <nav id="nav-side">
     	<h2><a href="shows.php">Next Show</a></h2>
-       <p>November 7th <br> @ Darrell's Tavern<br/></p>
+       <p>November 20th <br> @ Blue Moon w/Crazy Eyes<br/></p>
 
        <h2><!-- <a href="media-audio.php"> -->Audio<!-- </a> --></h2>
        <div class ="audio-side">
@@ -15,4 +15,4 @@
        <p class="variation"><img src="images/nav-side.jpg" alt="bobby and ryan"/></p> 
             
                 
-  </nav> 
+  </nav>  
