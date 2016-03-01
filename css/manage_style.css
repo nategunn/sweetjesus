@@ -1,0 +1,115 @@
+body{ /*global font styles go on the body tag*/
+    font-family: 'PT Sans', sans-serif;
+    font-size:100%; /*16px*/
+    line-height:1.5; /*24px*/ /*always at least 1.3*/
+    color: #de430a;/*#f5e69f*/
+    background-color:#000;
+    
+}
+
+@font-face {
+    font-family:caviarDreams;
+    src:url(../fonts/CaviarDreams.ttf);
+}
+
+.wrapper{
+    width:780px;
+    margin:0 auto;
+    background-color:#000;
+}
+
+.manage_nav{
+    height:50px;
+    line-height:50px;
+    padding-top:5px;
+    /*text-align:center;*/
+}
+
+.manage_nav ul{
+    padding-left:0px;
+    display:inline-block;
+    list-style-type:none;
+}
+
+.manage_nav li{
+    float:left;
+    padding-right:15px;
+    font-family: 'caviarDreams', serif;
+}
+
+label{
+    display:block;
+    margin-bottom:10px;
+}
+
+.error{
+    color:red;
+}
+.success{
+    color:green;
+}
+
+.table_titles{
+    font-family: 'caviarDreams', serif;
+    font-weight:none;
+    margin:0px;
+    color:#BCBCBC;
+
+}
+
+
+table{
+    border-spacing:0;
+    border-collapse: collapse;
+    margin-bottom:40px;
+}
+
+th,td{
+    padding:5px;
+    border-bottom:1px solid #BCBCBC;
+    font-size:.75em;
+}
+
+th{
+    text-align:left;
+    background-color:black;
+}
+
+td{
+   background-color:#303030; 
+}
+
+.form_table{
+    background-color:black;
+}
+
+.form_table th,
+.form_table td{
+    border:none;
+    background-color:black;
+    font-size:.90em;
+}
+
+.page_title{
+    font-family: 'caviarDreams', serif;
+    color:#BCBCBC;
+}
+
+a:link,
+a:visited {
+    text-decoration:none;
+    color:#de430a;   
+}
+
+a:hover,
+a:focus {
+    text-decoration:underline;
+    color:#BCBCBC;
+}
+
+#add .add_link,
+#update .update_link,
+#delete .delete_link{
+    color:#BCBCBC;
+    text-decoration:underline;
+}

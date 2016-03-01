@@ -13,7 +13,7 @@
         <h1>Shortwave Oracle is available at</h1>
         <h1><a href="http://knickknackrecords.com/products/sweet-jesus-shortwave-oracle-download">KnickKnackRecords.com</a></h1>
         <h1>or</h1>
-        <h1><a href="http://easystreetonline.com/Item/9007748864">EasyStreetOnline.com</a></h1>
+        <h1><a href="https://www.sonicboomrecords.com/catalog/default.aspx?searchbox=sweet+jesus">Sonic Boom Records</a></h1>
         <h1>also Available on iTunes</h1>
       </div> <!-- end outNow -->
       <h1>Watch the new video</h1>
